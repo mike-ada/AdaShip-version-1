@@ -4,13 +4,15 @@
 
 Read and parse a specified plain text config file (adaship_config.ini), the file is structure in the format (parsing process should remove and trim an unwanted whitespace automatically to minimise later issues):
 
-> Board: 10x10
-> Boat: Carrier, 5
-> Boat: Battleship, 4
-> boat: Destroyer, 3
-> Boat: Submarine, 3
-> Boat: Patrol Boat, 2
-> Boat: Submarine, 3
+```
+Board: 10x10
+Boat: Carrier, 5
+Boat: Battleship, 4
+boat: Destroyer, 3
+Boat: Submarine, 3
+Boat: Patrol Boat, 2
+Boat: Submarine, 3
+```
 
 Read each line and extract the following data:
 
